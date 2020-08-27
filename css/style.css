@@ -1,0 +1,64 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+  background-color: black;
+}
+
+#intro {
+  /* Photo by Bruno Thethe on Unsplash: https://unsplash.com/@bruthethe */
+  background: url("https://images.unsplash.com/photo-1593807897956-880b0819762c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.waves-effect.waves-orange .waves-ripple {
+  background-color: rgba(207, 110, 0, 0.904);
+}
+
+.i {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.i:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  background: rgba(255, 176, 30, 0.904);
+  border-radius: 45px;
+}
+
+.icon-background {
+  color: rgba(255, 176, 30, 0.904)
+}
+
+.inner {
+  padding-top: 20px;
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+}
+
+.fab:hover {
+  color: gray;
+}
